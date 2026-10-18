@@ -1,0 +1,24 @@
+# macOS and Python caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Datasets, model weights, and generated outputs
+/data/
+/datasets/
+/pretrained_models/
+/checkpoints/
+/logs/
+/runs/
+vis_img/
+*.pt
+*.pth
+*.ckpt

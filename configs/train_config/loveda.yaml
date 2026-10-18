@@ -1,0 +1,19 @@
+project:
+  name: "sam3_cdca_finetune"
+  output_dir: "./checkpoints"
+
+data:
+  name: "LoveDA"
+  root: ""
+  class_name_path: "text_prompt/loveda.txt"
+  bg_idx: 0
+  reduce_zero_label: true
+  ignore_index: 255
+  batch_size: 8
+  num_workers: 4
+  num_classes: 7
+  pin_memory: true
+  drop_last: false
+  shuffle: true
+  mode: "train"
+  split: "train"

@@ -1,0 +1,25 @@
+dataset:
+  name: "COCO_stuff"
+  root: ""
+  class_name_path: "text_prompt/coco_stuff.txt"
+  num_classes: 171
+  ignore_index: 255
+  bg_idx: null
+  reduce_zero_label: False
+  split: "val2017"
+  mode: "eval"
+  pin_memory: True
+  drop_last: False
+  
+model:
+  name: "SAM3"
+  bpe_path: "assets/bpe_simple_vocab_16e6.txt.gz"
+  checkpoint_path: ""
+  adapter_path: ""
+  conf_thresh: 0.3
+  prob_thresh: 0.1
+
+eval:
+  batch_size: 1
+  num_workers: 4
+  vis: True

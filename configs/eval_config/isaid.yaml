@@ -1,0 +1,25 @@
+dataset:
+  name: "iSAID"
+  root: ""
+  class_name_path: "text_prompt/isaid.txt"
+  num_classes: 16
+  ignore_index: 255
+  bg_idx: 0
+  reduce_zero_label: False
+  split: "val"
+  mode: "eval"
+  pin_memory: True
+  drop_last: False
+  
+model:
+  name: "SAM3"
+  bpe_path: "assets/bpe_simple_vocab_16e6.txt.gz"
+  checkpoint_path: ""
+  adapter_path: ""
+  conf_thresh: 0.4
+  prob_thresh: 0.5
+
+eval:
+  batch_size: 1
+  num_workers: 4
+  vis: False
