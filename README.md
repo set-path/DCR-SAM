@@ -9,7 +9,7 @@
 
 {liaowenbin23z, zhuhao22z, ykma, jianghao, fdai}@ict.ac.cn
 
-<sup>*</sup> Corresponding author: [Feng Dai](mailto:fdai@ict.ac.cn)
+<sup>*</sup> Corresponding author: [Feng Dai](https://scholar.google.com/citations?user=CVg2ja8AAAAJ)
 
 [Overview](#overview) · [Get Started](#get-started) · [Usage](#usage) · [Citation](#citation)
 
