@@ -2,6 +2,8 @@
 
 # Efficient SAM3 Adaptation for Multi-Class Semantic Segmentation via Dense Competitive Representations
 
+**✨ NeurIPS 2026 ✨**
+
 **Wenbin Liao<sup>1,2</sup> · Hao Zhu<sup>1,2</sup> · Yike Ma<sup>1</sup> · Hao Jiang<sup>1</sup> · Feng Dai<sup>1,*</sup>**
 
 <sup>1</sup> Institute of Computing Technology, Chinese Academy of Sciences<br>
