@@ -1,6 +1,6 @@
 <div align="center">
 
-## Efficient SAM3 Adaptation for Multi-Class Semantic Segmentation via Dense Competitive Representations
+# Efficient SAM3 Adaptation for Multi-Class Semantic Segmentation via Dense Competitive Representations
 
 **Wenbin Liao<sup>1,2</sup> · Hao Zhu<sup>1,2</sup> · Yike Ma<sup>1</sup> · Hao Jiang<sup>1</sup> · Feng Dai<sup>1,*</sup>**
 
