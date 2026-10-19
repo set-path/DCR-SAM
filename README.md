@@ -13,7 +13,7 @@
 
 <sup>*</sup> Corresponding author: [Feng Dai](https://scholar.google.com/citations?user=CVg2ja8AAAAJ)
 
-[Overview](#overview) · [Get Started](#get-started) · [Usage](#usage) · [Citation](#citation)
+[Overview](#overview) · [Abstract](#Abstract) · [Get Started](#get-started) · [Usage](#usage) · [Citation](#citation)
 
 </div>
 
@@ -29,7 +29,11 @@ Official PyTorch implementation of **DCR-SAM**, a framework for adapting SAM3 to
   <img src="assets/overview.png" alt="DCR-SAM framework, showing the SAM3 backbone, Vision-Conditioned Text Refinement, Vision-Guided Text Pooling, and dense competitive head." width="100%">
 </p>
 
-DCR-SAM combines shared visual features with image-conditioned class representations for dense semantic prediction. VCTR refines class text features using visual context, and VGTP aggregates the refined features into class anchors. The dense competitive head predicts classes jointly at each pixel. Training combines cross-entropy, Dice, and class-presence losses.
+> DCR-SAM combines shared visual features with image-conditioned class representations for dense semantic prediction. VCTR refines class text features using visual context, and VGTP aggregates the refined features into class anchors. The dense competitive head predicts classes jointly at each pixel. Training combines cross-entropy, Dice, and class-presence losses.
+
+## Abstract
+
+> The Segment Anything Model 3 (SAM3) has achieved significant progress in *Promptable Concept Segmentation (PCS)* by processing short noun phrases to generate segmentation masks with unique instance identifiers. While SAM3 excels at single-concept segmentation, it falls short in complex, real-world environments where multiple concepts must be segmented simultaneously. In particular, SAM3 typically fails to simultaneously process concepts with semantic overlap, leading to semantic misclassifications and redundant mask predictions. Moreover, as the number of concepts increases, the independent inference paradigm introduces prohibitive inference latency. To address these limitations, we propose the **D**ense **C**ompetitive **R**epresentations **SAM** (**DCR-SAM**) framework. By decoupling cross-modal interactions, the proposed method alleviates the inference latency. To resolve semantic misclassifications, DCR-SAM dynamically aligns textual concepts with visual representations and incorporates a dense competition head to enforce explicit inter-class competition. Furthermore, a learnable background token is applied to absorb non-target objects dynamically. These mechanisms effectively suppress overlapping predictions and generate high-fidelity masks. Extensive experimental evaluations across multiple benchmarks demonstrate that the proposed framework: (1) achieves a 2.3\% $\sim$ 10.7\% performance improvement over state-of-the-art methods, (2) delivers a 33$\times$ inference speedup compared to the native SAM3, and (3) exhibits strong robustness across diverse scenarios.
 
 ## Get Started
 
