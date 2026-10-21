@@ -121,10 +121,14 @@ The evaluation script imports `vis.visualizer.Visualizer`, which is not included
 If you find this work useful, please cite:
 
 ```bibtex
-@misc{liao2026dcrsam,
-  title  = {Efficient SAM3 Adaptation for Multi-Class Semantic Segmentation via Dense Competitive Representations},
-  author = {Liao, Wenbin and Zhu, Hao and Ma, Yike and Jiang, Hao and Dai, Feng},
-  year   = {2026}
+@misc{liao2026efficientsam3adaptationmulticlass,
+      title={Efficient SAM3 Adaptation for Multi-Class Semantic Segmentation via Dense Competitive Representations}, 
+      author={Wenbin Liao and Hao Zhu and Yike Ma and Hao Jiang and Feng Dai},
+      year={2026},
+      eprint={2610.27960},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2610.27960}, 
 }
 ```
 
