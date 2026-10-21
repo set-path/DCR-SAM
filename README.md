@@ -3,7 +3,7 @@
 # Efficient SAM3 Adaptation for Multi-Class Semantic Segmentation via Dense Competitive Representations
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2605.12325"><img src="https://img.shields.io/badge/Paper-ArXiv-red?style=flat-square&labelColor=444444" alt="Paper arXiv"></a>
+  <a href="https://arxiv.org/abs/2610.27960"><img src="https://img.shields.io/badge/Paper-ArXiv-red?style=flat-square&labelColor=444444" alt="Paper arXiv"></a>
   <a href="https://github.com/set-path/DCR-SAM"><img src="https://img.shields.io/badge/Project-Page-1f6feb?style=flat-square&labelColor=444444" alt="Project Page"></a>
   <!-- <a href="./docs/VIP_poster.pdf"><img src="https://img.shields.io/badge/Poster-ICML-F9AB00?style=flat-square&labelColor=444444" alt="Open Poster"></a> -->
 </p>
