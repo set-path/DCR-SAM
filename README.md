@@ -2,6 +2,12 @@
 
 # Efficient SAM3 Adaptation for Multi-Class Semantic Segmentation via Dense Competitive Representations
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.12325"><img src="https://img.shields.io/badge/Paper-ArXiv-red?style=flat-square&labelColor=444444" alt="Paper arXiv"></a>
+  <a href="https://github.com/set-path/DCR-SAM"><img src="https://img.shields.io/badge/Project-Page-1f6feb?style=flat-square&labelColor=444444" alt="Project Page"></a>
+  <!-- <a href="./docs/VIP_poster.pdf"><img src="https://img.shields.io/badge/Poster-ICML-F9AB00?style=flat-square&labelColor=444444" alt="Open Poster"></a> -->
+</p>
+
 **✨ NeurIPS 2026 ✨**
 
 **Wenbin Liao<sup>1,2</sup> · Hao Zhu<sup>1,2</sup> · Yike Ma<sup>1</sup> · Hao Jiang<sup>1</sup> · Feng Dai<sup>1,*</sup>**
